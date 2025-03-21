@@ -1,0 +1,123 @@
+$font-family: 'Arial', sans-serif;
+$primary-color: #3498db;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: $font-family;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: $primary-color;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+
+    nav ul {
+        list-style-type: none;
+
+        li {
+            display: inline;
+            margin: 0 15px;
+        }
+
+        a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+
+            &:hover {
+                text-decoration: underline;
+            }
+        }
+    }
+}
+
+.company-info, .author-info {
+    padding: 20px;
+    background-color: white;
+    margin: 20px auto;
+    width: 80%;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+
+    h2 {
+        color: $primary-color;
+    }
+
+    p {
+        line-height: 1.6;
+    }
+}
+
+.price-list table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+
+    th, td {
+        padding: 10px;
+        text-align: left;
+        border-bottom: 1px solid #ddd;
+    }
+
+    th {
+        background-color: $primary-color;
+        color: white;
+    }
+
+    tr:hover {
+        background-color: #f1f1f1;
+    }
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: $primary-color;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+
+.author-info{
+    li{
+        padding-bottom: 10px;
+        padding-top: 10px;
+    }
+}
+
+.photo-main {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 100px;
+    padding-top: 100px;
+
+    img{
+        margin-right: 100px;
+    }
+
+    .last-main{
+        margin-right: 0;
+    }
+}
+
+.price-list{
+    h2{
+        padding-left: 20px;
+    }
+}
+
+.photo-dev{
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}

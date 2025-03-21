@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="uk">
+    <head>
+    <meta charset="utf-8">
+    <title>zavd3</title>
+    <style>
+        .title-container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+            position: relative;
+        }
+
+        .title-container::before,
+        .title-container::after {
+            content: "";
+            height: 1px;
+            background: #000;
+            position: absolute;
+            width: 100%;
+            top: 50%;
+            transform: translateY(-50%);
+        }
+
+        .title-container::before {
+            left: 0;
+        }
+
+        .title-container::after {
+            right: 0;
+        }
+
+        .title-with-lines {
+            position: relative;
+            padding: 0 20px;
+            color: #000;
+            font-size: 24px;
+            background: #fff;
+            z-index: 1;
+        }
+    </style>
+    </head>
+    <body>
+    <div class="title-container">
+        <h1 class="title-with-lines">TITLE</h1>
+    </div>
+    </body>
+</html>

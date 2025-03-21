@@ -1,0 +1,139 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.page-container {
+  max-width: 100%;
+  display: flex;
+}
+.page-container .left-side {
+  width: 25%;
+  background-color: #3a5e90;
+}
+.page-container .left-side .main-photo {
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+  border-radius: 50%;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+.page-container .left-side .main-photo img {
+  display: block;
+  width: 100%;
+}
+.page-container .left-side .info {
+  width: 100%;
+}
+.page-container .left-side .info h3, .page-container .left-side .info p {
+  margin-left: 30px;
+}
+.page-container .left-side .interes h3, .page-container .left-side .interes p {
+  margin-left: 30px;
+}
+.page-container .left-side .languages .l-t-b {
+  display: flex;
+  justify-content: space-between;
+}
+.page-container .left-side .languages .l-t-b h3 {
+  margin-right: 50px;
+  margin-left: 30px;
+  color: white;
+}
+.page-container .left-side h3 {
+  color: white;
+}
+.page-container .left-side p {
+  color: white;
+}
+.page-container .left-side .line {
+  width: 93, 5%;
+  margin-left: 30px;
+  background: white;
+  height: 2px;
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
+.page-container .right-side {
+  width: calc(75% - 6px);
+  padding-left: 10px;
+}
+.page-container .right-side .exp .f-e-text {
+  display: flex;
+  justify-content: space-between;
+}
+.page-container .right-side .study .f-s-text {
+  display: flex;
+  justify-content: space-between;
+}
+.page-container .right-side .courses .f-c-text {
+  display: flex;
+  justify-content: space-between;
+}
+.page-container .right-side .courses .s-c-text {
+  display: flex;
+  justify-content: space-between;
+}
+.page-container .right-side .skills .f-sk-text {
+  display: flex;
+  justify-content: space-between;
+}
+.page-container .right-side h1, .page-container .right-side h3, .page-container .right-side h2, .page-container .right-side p {
+  margin-left: 30px;
+}
+.page-container .right-side h1 {
+  margin-top: 20px;
+}
+.page-container .right-side .line {
+  width: 93, 5%;
+  margin-left: 30px;
+  background: lightgray;
+  height: 2px;
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
+.page-container .right-side nav {
+  width: 100%;
+  height: 70px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.page-container .right-side nav a {
+  color: black;
+  font-size: 25px;
+}
+.page-container .right-side nav a button {
+  color: black;
+  font-size: 25px;
+  background: rgb(203, 252, 255);
+  border: none;
+  padding-right: 25px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 15px;
+  transition: background-color 0.3s ease;
+}
+.page-container .right-side nav a button:hover {
+  background-color: #258cd1;
+}
+
+.m-text {
+  margin-top: 30px;
+  margin-left: 30px;
+  color: white;
+}
+
+p, h1, h2, h3 {
+  font-family: "Roboto", serif;
+}
+
+ul {
+  margin-left: 50px;
+}
+
+ol {
+  margin-left: 50px;
+}/*# sourceMappingURL=style.css.map */
