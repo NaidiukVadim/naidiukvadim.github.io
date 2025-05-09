@@ -1,0 +1,21 @@
+.circle {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    
+    border: 30px solid blue;
+    
+    box-shadow: inset 0 0 0 30px yellow;
+    
+    background-color: white;
+    
+    /* Центрування тексту */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    font-family: Arial, sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    color: black;
+}

@@ -1,0 +1,81 @@
+/* table {
+    width: 100%;
+    max-width: 500px;
+    border-collapse: collapse;
+    font-family: Arial, sans-serif;
+    margin: 20px 0;
+}
+th, td {
+    border: 1px solid #ffffff;
+    padding: 10px;
+    text-align: center;
+}
+th {
+    font-weight: bold;
+}
+tr:first-child th {
+    background-color: #41da64; 
+    color: white;
+    font-size: 16px;
+}
+
+td:nth-child(odd),
+th:nth-child(odd):not(:first-child) {
+    background-color: #e8f5e9; 
+}
+td:nth-child(even),
+th:nth-child(even) {
+    background-color: #c1e7c4;
+}
+.name{
+    background-color: #e8f5e9;
+} */
+
+.table-container {
+    width: 100%;
+    max-width: 850px;
+    font-family: Arial, sans-serif;
+    margin: 20px 0;
+}
+.row {
+    display: block;
+    overflow: hidden;
+    min-height: 40px;
+    line-height: 40px;
+}
+.cell {
+    width: 20%;
+    float: left;
+    border: 1px solid #ffffff;
+    text-align: center;
+    box-sizing: border-box;
+    margin: -1px 0 0 -1px;
+}
+.header-row {
+    background-color: #41da64; /* Зелений фон для заголовка */
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    text-align: center;
+}
+.header-row .cell {
+    width: 100%; /* Аналог colspan */
+    float: none;
+    margin: 0;
+}
+.subheader .cell {
+    font-weight: bold;
+}
+/* Чергування кольорів для стовпців */
+.row:not(.header-row) .cell:nth-child(odd) {
+    background-color: #e8f5e9; /* Білий фон для непарних стовпців */
+}
+.row:not(.header-row) .cell:nth-child(even) {
+    background-color: #c1e7c4; /* Світло-зелений фон для парних стовпців */
+}
+
+.next_task_href{
+    font-size: 30px;
+    text-decoration: none;
+    color: #db3012;
+}

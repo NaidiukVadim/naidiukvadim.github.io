@@ -1,0 +1,105 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container .main_txt {
+  font-size: 35px;
+  text-align: center;
+  margin-top: 30px;
+}
+.container .catalog {
+  display: flex;
+  justify-content: center;
+  margin-top: 70px;
+}
+.container .catalog .card {
+  width: 280px;
+  height: 500px;
+  border-left: 1px solid gray;
+  border-top: 1px solid gray;
+  border-bottom: 1px solid gray;
+  text-align: center;
+}
+.container .catalog .card:last-child {
+  border-right: 1px solid gray;
+}
+.container .catalog .card hr {
+  width: 240px;
+  margin-left: 20px;
+}
+.container .catalog .card .category {
+  height: 60px;
+  font-size: 23px;
+  color: gray;
+  align-items: center;
+  margin-top: 30px;
+}
+.container .catalog .card img {
+  width: 240px;
+}
+.container .catalog .card .buy_btn {
+  width: 170px;
+  height: 40px;
+  border: none;
+  background: #899fd8;
+  border-radius: 10px;
+  font-size: 15px;
+  transition: 0.3s;
+  margin-top: 40px;
+}
+.container .catalog .card .buy_btn:hover {
+  background: #3859ac;
+  color: white;
+}
+.container .catalog .card .first {
+  background: #e12323;
+  color: white;
+  margin-top: 20px;
+}
+.container .catalog .card .first:hover {
+  background: #811010;
+  color: white;
+}
+.container .catalog .card .name {
+  font-size: 20px;
+}
+.container .catalog .card .price {
+  font-size: 20px;
+  font-weight: 800;
+}
+
+.new {
+  width: 70px;
+  height: 70px;
+  border-radius: 100px;
+  background: #cf5151;
+  color: #fffbfb;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 105px;
+  left: 320px;
+  outline: 5px solid white;
+}
+
+.hit {
+  width: 70px;
+  height: 70px;
+  border-radius: 100px;
+  background: #518acf;
+  color: #fffbfb;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 105px;
+  left: 600px;
+  outline: 5px solid white;
+}
+
+.hit_2 {
+  left: 1160px;
+}/*# sourceMappingURL=style.css.map */

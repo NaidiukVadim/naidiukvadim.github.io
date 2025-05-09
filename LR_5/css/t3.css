@@ -1,0 +1,126 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    background-color: #f5f5f5;
+}
+
+.container {
+    overflow: hidden; /* Очищення float */
+}
+
+/* Загальний клас для таблиць */
+.plan {
+    float: left;
+    width: 220px;
+    margin: 0 15px;
+    border-collapse: collapse;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    border-radius: 8px;
+}
+
+/* Стилі для заголовків */
+.plan .header {
+    font-size: 28px;
+    font-weight: bold;
+    color: white;
+    padding: 15px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.tiny .header {
+    background-color: #26a69a;
+}
+
+.tiny .title {
+    background-color: #26a69a;
+    color: white;
+}
+
+.small .header {
+    background-color: #ff9800;
+}
+
+.small .title {
+    background-color: #ff9800;
+    color: white;
+}
+
+.medium .header {
+    background-color: #d32f2f;
+}
+
+.medium .title {
+    background-color: #d32f2f;
+    color: white;
+}
+
+/* Назва плану */
+.plan .title {
+    font-size: 20px;
+    font-weight: bold;
+    color: #333;
+    padding: 10px;
+}
+
+/* Характеристики */
+.plan .feature {
+    font-size: 14px;
+    color: #666;
+    padding: 10px 0;
+    border-top: 1px dashed #ddd;
+}
+
+/* Стилі для комірки з кнопкою */
+.plan .button-cell {
+    padding: 20px 0;
+}
+
+/* Кнопка */
+.plan .sign-up-btn {
+    padding: 12px 30px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    border-radius: 5px;
+    text-transform: uppercase;
+    width: 80%;
+    transition: background-color 0.3s;
+}
+
+.tiny .sign-up-btn {
+    background-color: #26a69a;
+}
+
+.tiny .sign-up-btn:hover {
+    background-color: #1d8378;
+}
+
+.small .sign-up-btn {
+    background-color: #ff9800;
+}
+
+.small .sign-up-btn:hover {
+    background-color: #e68900;
+}
+
+.medium .sign-up-btn {
+    background-color: #d32f2f;
+}
+
+.medium .sign-up-btn:hover {
+    background-color: #b52828;
+}
+
+.next_task_href{
+    font-size: 30px;
+    text-decoration: none;
+    color: #db3012;
+}

@@ -1,0 +1,185 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  height: 455px;
+  width: 300px;
+  border: 3px solid rgb(41, 146, 142);
+  border-radius: 10px;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+.container header {
+  background-color: rgb(41, 146, 142);
+  color: white;
+  width: 100%;
+  margin-top: 10px;
+  height: 40px;
+  text-align: right;
+  line-height: 40px;
+}
+.container header p {
+  margin-right: 10px;
+}
+.container input {
+  width: 95%;
+  text-align: right;
+  margin-left: 6.5px;
+  margin-top: 10px;
+  height: 40px;
+  border-radius: 10px;
+  border: 3px solid rgb(41, 146, 142);
+  color: rgb(41, 146, 142);
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+.container .sun_panel {
+  height: 35px;
+  width: 80px;
+  background-color: rgb(41, 146, 142);
+  float: right;
+  margin-right: 10px;
+}
+.container .num_cont {
+  margin-top: 55px;
+}
+.container .num_cont .num {
+  width: 60px;
+  height: 60px;
+  border-radius: 10px;
+  border: 3px solid rgb(41, 146, 142);
+  text-align: center;
+  line-height: 55px;
+  float: inline-start;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  color: rgb(41, 146, 142);
+  font-size: 25px;
+  transition: 0.1s;
+}
+.container .num_cont .num:hover {
+  background: rgb(41, 146, 142);
+  color: white;
+}
+
+.container2 {
+  height: 455px;
+  width: 300px;
+  border: 3px solid rgb(41, 146, 142);
+  border-radius: 10px;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+.container2 header {
+  background-color: rgb(41, 146, 142);
+  color: white;
+  width: 100%;
+  margin-top: 10px;
+  height: 40px;
+  text-align: right;
+  line-height: 40px;
+}
+.container2 header p {
+  margin-right: 10px;
+}
+.container2 input {
+  width: 95%;
+  text-align: right;
+  margin-left: 6.5px;
+  margin-top: 10px;
+  height: 40px;
+  border-radius: 10px;
+  border: 3px solid rgb(41, 146, 142);
+  color: rgb(41, 146, 142);
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+.container2 .sun_panel {
+  position: absolute;
+  left: 1010px;
+  height: 35px;
+  width: 80px;
+  background-color: rgb(41, 146, 142);
+  margin-right: 10px;
+}
+.container2 .num_cont {
+  margin-top: 55px;
+}
+.container2 .num_cont .num {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  border-radius: 10px;
+  border: 3px solid rgb(41, 146, 142);
+  text-align: center;
+  line-height: 55px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  color: rgb(41, 146, 142);
+  font-size: 25px;
+  transition: 0.1s;
+}
+.container2 .num_cont .num:hover {
+  background: rgb(41, 146, 142);
+  color: white;
+}
+.container2 .num_cont .num:nth-child(2) {
+  left: 875px;
+}
+.container2 .num_cont .num:nth-child(3) {
+  left: 945px;
+}
+.container2 .num_cont .num:nth-child(4) {
+  left: 1015px;
+}
+.container2 .num_cont .num:nth-child(5) {
+  left: 805px;
+  top: 790px;
+}
+.container2 .num_cont .num:nth-child(6) {
+  left: 875px;
+  top: 790px;
+}
+.container2 .num_cont .num:nth-child(7) {
+  left: 945px;
+  top: 790px;
+}
+.container2 .num_cont .num:nth-child(8) {
+  left: 1015px;
+  top: 790px;
+}
+.container2 .num_cont .num:nth-child(9) {
+  left: 805px;
+  top: 860px;
+}
+.container2 .num_cont .num:nth-child(10) {
+  left: 875px;
+  top: 860px;
+}
+.container2 .num_cont .num:nth-child(11) {
+  left: 945px;
+  top: 860px;
+}
+.container2 .num_cont .num:nth-child(12) {
+  left: 1015px;
+  top: 860px;
+}
+.container2 .num_cont .num:nth-child(13) {
+  left: 805px;
+  top: 930px;
+}
+.container2 .num_cont .num:nth-child(14) {
+  left: 875px;
+  top: 930px;
+}
+.container2 .num_cont .num:nth-child(15) {
+  left: 945px;
+  top: 930px;
+}
+.container2 .num_cont .num:nth-child(16) {
+  left: 1015px;
+  top: 930px;
+}/*# sourceMappingURL=style.css.map */
