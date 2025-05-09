@@ -81,7 +81,7 @@
   align-items: center;
   position: absolute;
   top: 105px;
-  left: 320px;
+  left: 600px;
   outline: 5px solid white;
 }
 
@@ -96,10 +96,10 @@
   align-items: center;
   position: absolute;
   top: 105px;
-  left: 600px;
+  left: 1160px;
   outline: 5px solid white;
 }
 
 .hit_2 {
-  left: 1160px;
+  left: 1440px;
 }/*# sourceMappingURL=style.css.map */
