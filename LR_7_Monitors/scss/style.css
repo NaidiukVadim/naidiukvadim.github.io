@@ -8,13 +8,34 @@
   font-size: 35px;
   text-align: center;
   margin-top: 30px;
+  text-transform: uppercase;
 }
 .container .catalog {
   display: flex;
   justify-content: center;
   margin-top: 70px;
+  position: relative;
+}
+.container .catalog .swipe {
+  position: absolute;
+  top: 75px;
+  width: 40px;
+  height: 40px;
+  border: 2px solid gray;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 35px;
+  background: white;
+  z-index: 1;
+}
+.container .catalog .swipe__left {
+  left: 380px;
+}
+.container .catalog .swipe__right {
+  right: 380px;
 }
 .container .catalog .card {
+  position: relative;
   width: 280px;
   height: 500px;
   border-left: 1px solid gray;
@@ -29,12 +50,15 @@
   width: 240px;
   margin-left: 20px;
 }
-.container .catalog .card .category {
+.container .catalog .card .c__block {
   height: 60px;
+  margin-top: 35px;
+}
+.container .catalog .card .c__block .category {
   font-size: 23px;
   color: gray;
   align-items: center;
-  margin-top: 30px;
+  text-decoration: none;
 }
 .container .catalog .card img {
   width: 240px;
@@ -48,18 +72,32 @@
   font-size: 15px;
   transition: 0.3s;
   margin-top: 40px;
+  cursor: pointer;
+}
+.container .catalog .card .buy_btn a {
+  transition: 0.3s;
+  text-decoration: none;
+  color: #000;
 }
 .container .catalog .card .buy_btn:hover {
   background: #3859ac;
+}
+.container .catalog .card .buy_btn:hover a {
   color: white;
 }
 .container .catalog .card .first {
   background: #e12323;
-  color: white;
   margin-top: 20px;
+}
+.container .catalog .card .first a {
+  transition: 0.3s;
+  color: white;
+  text-decoration: none;
 }
 .container .catalog .card .first:hover {
   background: #811010;
+}
+.container .catalog .card .first:hover a {
   color: white;
 }
 .container .catalog .card .name {
@@ -69,37 +107,29 @@
   font-size: 20px;
   font-weight: 800;
 }
-
-.new {
+.container .catalog .card .soon_p {
+  color: white;
+}
+.container .catalog .card .tag {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: -35px;
   width: 70px;
   height: 70px;
-  border-radius: 100px;
-  background: #cf5151;
-  color: #fffbfb;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  position: absolute;
-  top: 105px;
-  left: 600px;
+  text-align: center;
+  border-radius: 50%;
   outline: 5px solid white;
 }
-
-.hit {
-  width: 70px;
-  height: 70px;
-  border-radius: 100px;
+.container .catalog .card .tag p {
+  color: white;
+}
+.container .catalog .card .new {
+  left: 195px;
+  background: #cc3b3b;
+}
+.container .catalog .card .hit {
+  left: 195px;
   background: #518acf;
-  color: #fffbfb;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  position: absolute;
-  top: 105px;
-  left: 1160px;
-  outline: 5px solid white;
-}
-
-.hit_2 {
-  left: 1440px;
 }/*# sourceMappingURL=style.css.map */
