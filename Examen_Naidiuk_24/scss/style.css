@@ -50,7 +50,7 @@ main .menu .menu-cards .menu-card {
 }
 main .menu .menu-cards .menu-card img {
   width: 100%;
-  height: auto;
+  height: 300px;
 }
 main .menu .menu-cards .menu-card h3 {
   margin: 1rem 0;
