@@ -28,8 +28,9 @@ main {
   margin: 0 auto;
   padding: 2rem 0;
 }
-main .menu h2 {
-  text-align: center;
+main .menu .first-line {
+  display: flex;
+  justify-content: space-between;
   margin-bottom: 2rem;
 }
 main .menu .menu-cards {
@@ -44,7 +45,7 @@ main .menu .menu-cards .menu-card {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   overflow: hidden;
   width: 100%;
-  max-width: 300px;
+  max-width: 400px;
   text-align: center;
   transition: transform 0.3s ease;
 }
