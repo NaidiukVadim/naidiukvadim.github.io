@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+header {
+  background-color: #b3e5fc;
+  position: sticky;
+  top: 0;
+  padding: 1rem;
+  text-align: center;
+}
+header h1 {
+  font-size: 2rem;
+}
+header .phone-icon {
+  margin-left: 1rem;
+}
+
+main {
+  width: 90%;
+  margin: 0 auto;
+  padding: 2rem 0;
+}
+main .menu h2 {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+main .menu .menu-cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center;
+}
+main .menu .menu-cards .menu-card {
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  width: 100%;
+  max-width: 300px;
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+main .menu .menu-cards .menu-card img {
+  width: 100%;
+  height: auto;
+}
+main .menu .menu-cards .menu-card h3 {
+  margin: 1rem 0;
+  font-size: 1.5rem;
+}
+main .menu .menu-cards .menu-card p {
+  padding: 0 1rem 1rem;
+  color: #666;
+}
+main .menu .menu-cards .menu-card span {
+  display: block;
+  padding: 1rem;
+  background: #ffe0b2;
+  font-weight: bold;
+}
+main .menu .menu-cards .menu-card:hover {
+  transform: scale(1.05);
+}
+
+@media (min-width: 768px) {
+  main .menu .menu-cards .menu-card {
+    width: calc(33.33% - 1.33rem);
+  }
+  main .menu .menu-cards .menu-card:hover {
+    transform: none;
+  }
+}
+footer {
+  background-color: #0288d1;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}/*# sourceMappingURL=style.css.map */
