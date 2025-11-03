@@ -1,0 +1,52 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+#letters {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.letter-block {
+    width: 50px;
+    height: 50px;
+    background-color: #4CAF50;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: background-color 0.3s;
+}
+
+.letter-block:hover {
+    background-color: #45a049;
+}
+
+#showBlocks {
+    padding: 10px 20px;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.name-list {
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+li{
+    cursor: pointer;
+    font-size: 20px;
+    display: inline-block;
+    margin: 5px;
+    padding: 5px 10px;
+    background-color: #e7f3ff;
+    border: 1px solid #b3d1ff;
+    border-radius: 5px;
+}
