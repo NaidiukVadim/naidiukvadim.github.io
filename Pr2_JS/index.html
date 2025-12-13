@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="uk">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Практична робота №2: setTimeout & setInterval</title>
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <div class="task-block">
+            <h2>Завдання 1 та 2: Годинник</h2>
+            <p>Поточний час:</p>
+            <div id="clockDisplay" class="clock"></div>
+            <p><small>Пройшла ще одна хвилина!</small></p>
+        </div>
+
+        <div class="task-block">
+            <h2>Завдання 3: Ефект друкарської машинки</h2>
+            <input type="text" id="typeInput" placeholder="Введіть текст..." value="Hello, JavaScript World!">
+            <br>
+            <button onclick="typeWriterInterval()">Запуск через setInterval</button>
+            <button onclick="typeWriterTimeout()">Запуск через setTimeout</button>
+            <div id="typeOutput" class="result output-area"></div>
+        </div>
+
+        <div class="task-block">
+            <h2>Завдання 4: Ставки на спорт</h2>
+            <p>Введіть суму ставки:</p>
+            <input type="number" id="betInput" placeholder="Сума (грн)">
+            <button onclick="placeBet()">Зробити ставку</button>
+            <div id="betResult" class="result"></div>
+        </div>
+
+        <script src="js/script.js"></script>
+    </body>
+</html>
