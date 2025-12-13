@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Generator</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <div id="tabs">
+        <div class="tab whiteborder">Border Radius</div>
+        <div class="tab">Margin</div>
+        <div class="tab">Max Height</div>
+    </div>
+
+    <div class="tabContent">
+        <div class="control-group">
+            <label>Top Left:</label>
+            <input type="range" id="rtl" min="0" max="100" value="0">
+            <input type="text" id="ttl" value="0">
+        </div>
+        <div class="control-group">
+            <label>Top Right:</label>
+            <input type="range" id="rtr" min="0" max="100" value="0">
+            <input type="text" id="ttr" value="0">
+        </div>
+        <div class="control-group">
+            <label>Bottom Right:</label>
+            <input type="range" id="rbr" min="0" max="100" value="0">
+            <input type="text" id="tbr" value="0">
+        </div>
+        <div class="control-group">
+            <label>Bottom Left:</label>
+            <input type="range" id="rbl" min="0" max="100" value="0">
+            <input type="text" id="tbl" value="0">
+        </div>
+    </div>
+
+    <div class="tabContent hide">
+        <div class="control-group">
+            <label>Margin Top:</label>
+            <input type="range" id="mt" min="0" max="100" value="0">
+            <input type="text" id="tmt" value="0">
+        </div>
+        <div class="control-group">
+            <label>Margin Right:</label>
+            <input type="range" id="mr" min="0" max="100" value="0">
+            <input type="text" id="tmr" value="0">
+        </div>
+        <div class="control-group">
+            <label>Margin Bottom:</label>
+            <input type="range" id="mb" min="0" max="100" value="0">
+            <input type="text" id="tmb" value="0">
+        </div>
+        <div class="control-group">
+            <label>Margin Left:</label>
+            <input type="range" id="ml" min="0" max="100" value="0">
+            <input type="text" id="tml" value="0">
+        </div>
+    </div>
+
+    <div class="tabContent hide">
+        <div class="control-group">
+            <label>Max Height:</label>
+            <input type="range" id="mh" min="0" max="300" value="300">
+            <input type="text" id="tmh" value="300">
+        </div>
+    </div>
+
+    <div class="container">
+        <div id="preview-box">
+            <div id="block">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </div>
+        </div>
+
+        <div class="output-area">
+            <label>CSS Code:</label>
+            <textarea id="cssCode" readonly></textarea>
+        </div>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
