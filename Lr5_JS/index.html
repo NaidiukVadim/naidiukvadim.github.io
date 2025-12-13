@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="uk">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Лабораторна робота №5 - DOM</title>
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <section id="task1">
+            <h2>1. Конвертер температур</h2>
+            <div class="converter-group">
+                <label>Температура за Фаренгейтом (°F):</label>
+                <input type="number" id="inputFahrenheit">
+            </div>
+            <div class="converter-group">
+                <label>Температура за Цельсієм (°C):</label>
+                <input type="number" id="inputCelsius">
+            </div>
+        </section>
+
+        <section id="task2">
+            <h2>2. Таблиця множення (Введення)</h2>
+            <div>Загальний рахунок: <span id="t2-score">0</span> (Всього: <span id="t2-total">0</span>)</div>
+            <div class="quiz-container">
+                <h3 id="t2-question">Питання з'явиться тут</h3>
+                <input type="number" id="t2-answer" placeholder="Ваша відповідь">
+                <button onclick="checkTask2()">Перевірити</button>
+                <button onclick="nextTask2()">Наступне завдання</button>
+                <p id="t2-result" class="result-msg"></p>
+            </div>
+        </section>
+
+        <section id="task3">
+            <h2>3. Таблиця множення (Тест)</h2>
+            <div>Загальний рахунок: <span id="t3-score">0</span> (Всього: <span id="t3-total">0</span>)</div>
+            <div class="quiz-container">
+                <h3 id="t3-question">Питання з'явиться тут</h3>
+                <div id="t3-options" class="radio-options"></div>
+                <p id="t3-result" class="result-msg"></p>
+                <button onclick="nextTask3()" style="margin-top: 10px;">Наступне завдання</button>
+            </div>
+        </section>
+
+        <section id="task4">
+            <h2>4. Ротатор зображень (Чоловічий одяг)</h2>
+            <div id="rotator"></div>
+        </section>
+
+        <section id="task5">
+            <h2>5. Капча (Pixel Art)</h2>
+            <div id="captcha-container" class="captcha-display"></div>
+            <div class="captcha-input-group">
+                <input type="text" id="captcha-input" placeholder="Введіть число">
+                <button onclick="checkCaptcha()">Перевірити</button>
+                <button onclick="initCaptcha(4)">Оновити</button>
+            </div>
+            <p id="captcha-result" class="result-msg"></p>
+        </section>
+
+        <script src="js/script.js"></script>
+    </body>
+</html>
