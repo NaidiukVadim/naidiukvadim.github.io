@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToDo List</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>ToDo List</h1>
+        
+        <div class="input-group">
+            <input type="text" id="taskInput" placeholder="Введіть нове завдання...">
+        </div>
+
+        <div class="filters">
+            <button class="filter-btn active" data-filter="all">Всі</button>
+            <button class="filter-btn" data-filter="active">Невиконані</button>
+            <button class="filter-btn" data-filter="completed">Виконані</button>
+        </div>
+
+        <ul id="taskList"></ul>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
